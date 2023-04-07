@@ -52,6 +52,20 @@
   * Four levels of scope:
   * ![Four levels of scope](/images/rbac-scope.png)
 
+## Built-in Azure RBAC Roles
+* Owner
+  * Full access
+  * Manages everything including access to resources
+  * Ability to assign roles in Azure RBAC
+* Contributor
+  * Manages everything except access to the resources
+  * Does not have ability to assign roles in Azure RBAC
+* Reader
+  * Read-only access to everything
+* User Access Administrator
+  * Manage user access to resources
+* [For more RBAC...](https://learn.microsoft.com/en-us/azure/role-based-access-control/built-in-roles)
+
 ![image](https://user-images.githubusercontent.com/10944397/230610712-b094a869-a933-4952-bd91-39f39b300f3f.png)
 
 * Deny Assignments
