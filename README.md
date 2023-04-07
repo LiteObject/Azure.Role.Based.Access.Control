@@ -52,6 +52,17 @@
   * Four levels of scope:
   * ![Four levels of scope](/images/rbac-scope.png)
 
+![image](https://user-images.githubusercontent.com/10944397/230610712-b094a869-a933-4952-bd91-39f39b300f3f.png)
+
+* Deny Assignments
+  * Block users from performing specific actions
+  * Cannot be created directly by users
+  * Created by Azure Blueprints and Azure managed apps
+* Azure AD roles only grant access to Azure AD resources, NOT to Azure resources
+  * Except AD Global Administrator who can be elevated to access all subscriptions and management groups within the tenant
+* Assign roles to groups rather than to users 
+  * This reduces the number of role assignments
+  * This makes managing and auditing a lot simpler 
 
 ---
 ## Links
